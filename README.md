@@ -1,5 +1,5 @@
 # 🧘‍♀️ Zen Journal App
-![Zen Journal](./ZenJournalApp.png)
+![Zen Journal](./public/ZenJournalApp.png)
 
 
 ## 👋 README by ***Yamily Benigni*** - [Linkedin](https://www.linkedin.com/in/yamilybenigni/) | [Portfolio](https://yamilycodes.com)
@@ -33,13 +33,13 @@ A working full-stack, single-page application hosted on Heroku.
 
 ### 💡 Concept idea
 #### Tracking idea
-![Timer Wireframe](./screenshots/Screenshot%202022-07-15%20at%2011.36.45%20am.png)
+![Timer Wireframe](./public/screenshots/Screenshot%202022-07-15%20at%2011.36.45%20am.png)
 
 #### Signup idea
-![Signup wireframe](./screenshots/Screenshot%202022-07-15%20at%2011.47.47%20am.png)
+![Signup wireframe](./public/screenshots/Screenshot%202022-07-15%20at%2011.47.47%20am.png)
 
 #### ERD and UML models
-![ERD](./screenshots/Project-Four-SEI.png)
+![ERD](./public/screenshots/Project-Four-SEI.png)
 
 ***
 
@@ -169,19 +169,19 @@ See the live app [comming soon]()
 
 ### 📸 Screenshots
 #### Signin page
-![Signin page](./screenshots/Screenshot-signin-zen.png)
+![Signin page](./public/screenshots/Screenshot-signin-zen.png)
 
 #### Meditation list
-![Meditation list](./screenshots/Screenshot-meditation-list.png)
+![Meditation list](./public/screenshots/Screenshot-meditation-list.png)
 
 #### Timer
-![Start timer](./screenshots/Screenshot-timer-zen.png)
+![Start timer](./public/screenshots/Screenshot-timer-zen.png)
 
 #### Record meditation
-![Log you meditation](./screenshots/Screenshot-record-journal.png)
+![Log you meditation](./public/screenshots/Screenshot-record-journal.png)
 
 #### See all records
-![See records in journal](./screenshots/Screenshot-journals-zen.png)
+![See records in journal](./public/screenshots/Screenshot-journals-zen.png)
 
 ***
 
@@ -238,7 +238,7 @@ According to the user behaviour on the app, a message would show with success or
 
 ***
 
-### 👋 Developers
+### 👋 Team members
 Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/)
 Sam Hackwood - [Linkedin](https://www.linkedin.com/in/sam-hackwood-40b050233/)
 Richard Afrane-Kesey [Linkedin](https://www.linkedin.com/in/ra-k22/)
