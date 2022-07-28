@@ -98,7 +98,7 @@ The communication happened using ***Zoom***, ***Slack***, ***Trello*** board and
 ***
 
 ### 👩‍💻 Technologies used
-* This project is divided into backend and frontend development where the two connects through RESTful APIs. 
+* This project is divided into backend and frontend development where the two connects via RESTful APIs. 
   - For the backend, it uses [Express](https://expressjs.com/), Node and [Mongoose](https://github.com/Automattic/mongoose#readme).
   - For the frontend, it uses [React JS](https://github.com/facebook/create-react-app).
 * For the database, the app used [MongoDB](https://www.mongodb.com/), a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. 
@@ -163,12 +163,19 @@ The CORS Extension in the browser, though switched on, sometimes prevents object
 ***
 
 ### 🚀 Getting started
-See the live app [comming soon]()
+See the live app [here](https://zenjournal.herokuapp.com/)
+
+#### Credentials
+Use the credential below to explore the app.
+* login: `user@zen.com`
+* password: `pass123`
+
+Or you can create your own credentials.
 
 ***
 
 ### 📸 Screenshots
-#### Signin page
+#### Sign in page
 ![Signin page](./public/screenshots/Screenshot-signin-zen.png)
 
 #### Meditation list
@@ -239,9 +246,9 @@ According to the user behaviour on the app, a message would show with success or
 ***
 
 ### 👋 Team members
-Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/)
-Sam Hackwood - [Linkedin](https://www.linkedin.com/in/sam-hackwood-40b050233/)
-Richard Afrane-Kesey [Linkedin](https://www.linkedin.com/in/ra-k22/)
+* Yamily Benigni - [Linkedin](https://www.linkedin.com/in/yamilybenigni/)
+* Sam Hackwood - [Linkedin](https://www.linkedin.com/in/sam-hackwood-40b050233/)
+* Richard Afrane-Kesey [Linkedin](https://www.linkedin.com/in/ra-k22/)
 
 ***
 
