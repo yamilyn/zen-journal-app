@@ -9,7 +9,7 @@
 ### 📝 Project philosophy
 A clean and simple app to time and track meditations. We designed the app with two principal philosophies. Firstly, that journaling is an extremely powerful tool on the spiritual path. Not only does journaling allow us to become more aware of the content of our minds but it gives us a sense of our progress and prevents from sitting in rumination rather than actually meditating. 
 
-Secondly, that most mediation apps do too much; they are filled with excessive guidance, gadgets, and gismos and ultimately become a distraction themselves. In our design we try not to get in the way but simply allow the user to meditate, then write about what they experience.
+Secondly, that most mediation apps do too much; they are filled with excessive guidance, gadgets, and gizmos and ultimately become a distraction themselves. In our design we try not to get in the way but simply allow the user to meditate, then write about what they experience.
 
 ***
 
@@ -27,7 +27,7 @@ A working full-stack, single-page application hosted on Heroku.
 - Have a well-scoped feature-set. Full-CRUD data operations are not required if one or more of the following are included:
 - Consume data from a third-party API.
 - Implement additional functionality if the user is an admin.
-- Utilize multi-user, real-time communications.
+- Utilise multi-user, real-time communications.
 
 ***
 
@@ -60,7 +60,7 @@ A working full-stack, single-page application hosted on Heroku.
 ### 🌟 Development planning
 Project time scale - 2 weeks ( working Monday to Friday normal business hours).
 
-The team, lead by Yamily, had a first meeting during which ideas were discussed and finally decided on building an app for tracking meditations since we all meditated. The development was broken down into smaller
+The team, led by Yamily, had a first meeting during which ideas were discussed and finally decided on building an app for tracking meditations since we all meditated. The development was broken down into smaller
 modules which made it easier for the team leader to allocate tasks within the team. Sam was allocated the frontend whilst Yamily and Richard were allocated the task of building the backend plus also doing some frontend development when the need arose.
 
 The next meeting included the creation of user stories, ERD and wire-framing. This was then presented to the
@@ -98,7 +98,7 @@ The communication happened using ***Zoom***, ***Slack***, ***Trello*** board and
 ***
 
 ### 👩‍💻 Technologies used
-* This project is divided into backend and frontend development where the two connects via RESTful APIs. 
+* This project is divided into backend and frontend development where the two connect via RESTful APIs. 
   - For the backend, it uses [Express](https://expressjs.com/), Node and [Mongoose](https://github.com/Automattic/mongoose#readme).
   - For the frontend, it uses [React JS](https://github.com/facebook/create-react-app).
 * For the database, the app used [MongoDB](https://www.mongodb.com/), a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. 
@@ -131,9 +131,9 @@ The communication happened using ***Zoom***, ***Slack***, ***Trello*** board and
 #### 1. Implementing Music API:
 The team decided to use Spotify API to include music in the meditations list. However after reading the documentation and watching youtube tutorials, we discovered that the user experience of the Zen App will be impacted negatively. 
 
-The user of our app will have to click a button to be taken away from the app to Spotify where they would click another button to authenticate the Zen App's Spotify account, before being re-directed back to Zen App. This process, just to allow the user to select and listen to music, we felt involved too many clicks and steps for the user to go through. 
+The user of our app will have to click a button to be taken away from the app to Spotify where they would click another button to authenticate the Zen App's Spotify account, before being redirected back to Zen App. This process, just to allow the user to select and listen to music, we felt involved too many clicks and steps for the user to go through. 
 
-We decided to abandon Spotify and tried RapidApi which required credit card details for the free account, just in case we exceeded our Request limit each month and then incur charges. Finally this functionality has been abandoned , yet the React Sound Component has been left in the code , but commented out.
+We decided to try RapidApi instead which required credit card details for the free account, just in case we exceeded our Request limit each month and then incur charges. Finally this functionality has been abandoned, yet the React Sound Component with Spotify API has been left in the code in case we change our mind in the future, but commented out.
 
 #### 2. CORS Extension vs CORS dependency:
 The CORS Extension in the browser, though switched on, sometimes prevents objects being loaded and elements to be displayed in the app. An example being the quotations appearing randomly on the homepage. The cors dependency has been installed which we thought would overcome these challenges regardless of the CORS Extension being switched on or off, but this has not completely solved this issue.
@@ -194,7 +194,7 @@ Or you can create your own credentials.
 
 ### 🐞 Bugs
 #### 1. Showing error and success message at same time:
-According to the user behaviour on the app, a message would show with success or error, however both messages where appearing at same time. In order to fix this, we have separated the messages as shown in the code below. In the initial code it was a single function.
+According to the user behaviour on the app, a message would show with success or error, however both messages were appearing at same time. In order to fix this, we have separated the messages as shown in the code below. In the initial code it was a single function.
 
 ```jsx
   const handleErrorMessage = (msg) => {
@@ -217,7 +217,7 @@ According to the user behaviour on the app, a message would show with success or
   ```
 
   #### 2. Journal page breaks when deleting a meditation:
-  If we deleted a meditation which were related to any journal, the entire journal records would break and disappear. The approach to fix this was by simply removing the button if the meditation had any relationship within the records. Here is a sample of our code:
+  If we deleted a meditation which was related to any journal, the entire journal records would break and disappear. The approach to fix this was by simply removing the button if the meditation had any relationship within the records. Here is a sample of our code:
 
   ```jsx
   { (props.meditation.journals.length === 0) ?
@@ -241,7 +241,7 @@ According to the user behaviour on the app, a message would show with success or
 * Have a gamification badge programme to give to very active users;
 * Turn the app into a social media where users could share their meditation journeys;
 * Add favourite button on top of each meditation where users could save them;
-* Add pagination in journal page.
+* Add pagination in the journal page.
 
 ***
 
