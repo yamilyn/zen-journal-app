@@ -57,37 +57,24 @@ A working full-stack, single-page application hosted on Heroku.
 
 ***
 
-### 🌟 Development planning
-Project time scale - 2 weeks ( working Monday to Friday normal business hours).
+### 📈 Development process
+Project time scale - 2 weeks (working Monday to Friday normal business hours).
 
-The team, led by Yamily, had a first meeting during which ideas were discussed and finally decided on building an app for tracking meditations since we all meditated. The development was broken down into smaller
-modules which made it easier for the team leader to allocate tasks within the team. Sam was allocated the frontend whilst Yamily and Richard were allocated the task of building the backend plus also doing some frontend development when the need arose.
+In the first meeting I discussed some ideas with the team and finally we decided on building an app for tracking meditations since we all meditated. The development was broken down into smaller modules which made it easier for the team to implement the taska. The tasks were divided into authentication, back-end, front-end development. During that meeting the team also decided that I would be the team leader as I had more experience in planning and resolving conflicts.
 
-The next meeting included the creation of user stories, ERD and wire-framing. This was then presented to the
-course instructors for approval before we could proceed.
+The next meeting included the creation of user stories, ERD and wireframes. I created a project board on Trello and we logged our allocated tasks where I could see what we were currently working on, and which tasks had been completed.
 
-Once the design was approved, we logged our allocated tasks on Trello where the team leader could see what we were currently working on, and which tasks had been completed.
-
-
-The app consists of two separate apps - an Express JS backend and a React JS frontend. They are linked via REST API,
+The app consists of two separate apps - an ExpressJS backend and a ReactJS frontend. They are linked via REST API.
 
 Styling of the React frontend was achieved with React Bootstrap.
 
-The database schema and model in Express was used to build the database in MongoDB - a NoSQL database.
-Then the development of the Express backend and React frontend continued, with constant reference to the
-user stories, ERD and wireframes.
-
 The development was test-driven, with each team member testing codes they had written and the team coming together to fix any bugs.
 
-Git commits were made several times in the day and the team leader would merge the codes, with the rest of the team pulling the team leader's code each morning so that we all have the same version of the app on our local 
-development systems.
+Git commits were made during the day and I would merge the codes, with the rest of the team pulling the merged code each morning just after our daily standup, so that we all have the same version of the app on our local development systems.
 
-Final testing and deployment on Heroku was done on day 9 with a presentation and demonstration on day 10, the final day, to the course instructors and the rest of the class.
+Final testing and deployment on Heroku was done on day 9 with a presentation and demonstration on day 10.
 
-***
-
-### 📈 Development process
-The development has been divided into backend, frontend and authentication.
+Screenshot from the Trello board. 
 ![Trello board](/public/screenshots/Screenshot%202022-07-26%20at%2018.08.32.png)
 
 ***
@@ -234,6 +221,14 @@ According to the user behaviour on the app, a message would show with success or
 
         }
 ```
+***
+
+### 🌟 Wins
+
+In this project I had the opportunity to build a MERN stack application using Express, Mongoose and MongoDB for the back-end and ReactJS with APIs for the front-end. I also have used Postman to test all APIs before implementing in the code.
+
+I was the team leader in this project and it was a win to share my communication, organisation and leadership skills. The app was delivered fully working and with a simple and elegant UX. The team was very satisfied with the result.
+
 ***
 
 ### 🔎 Future iterations
